@@ -135,9 +135,9 @@ const getWeather = (city) => {
 
 getWeather("Delhi")
 
-submit.addEventListner("click", (e) => {
-	e.preventDefault()
-	getWeather(city.value)
+submitbutton.addEventListener('click', (event) => {
+	event.preventDefault()
+	getWeather(inputCity.value)
 })
 
 
